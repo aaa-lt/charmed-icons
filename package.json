@@ -1,11 +1,11 @@
 {
-	"publisher": "littensy",
-	"name": "charmed-icons",
-	"displayName": "Charmed Icons",
+	"publisher": "aaa-lt",
+	"name": "charmed-nest-icons",
+	"displayName": "Charmed Nest Icons",
 	"type": "module",
-	"version": "0.10.0",
+	"version": "0.0.1",
 	"packageManager": "pnpm@10.11.0",
-	"description": "💝 Charming icon set for Roblox codebases",
+	"description": "💝 Charming icon set with NestJS icons",
 	"author": "littensy",
 	"license": "MIT",
 	"repository": {

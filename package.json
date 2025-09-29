@@ -3,7 +3,7 @@
 	"name": "charmed-nest-icons",
 	"displayName": "Charmed Nest Icons",
 	"type": "module",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"packageManager": "pnpm@10.11.0",
 	"description": "💝 Charming icon set with NestJS icons",
 	"author": "littensy",

@@ -589,46 +589,46 @@ export const fileIcons: FileIcons = {
 	"markdownx": {
 		extensions: ["mdx"],
 	},
-	"nest": {
-		names: [
-        'nest-cli.json',
-        '.nest-cli.json',
-        'nestconfig.json',
-        '.nestconfig.json',
-      ]
-	},
 	"nest-controller": {
-		names: ['controller.ts', 'controller.js']
-	},
-	"nest-middleware": {
-		names: ['middleware.ts', 'middleware.js']
-	},
-	"nest-module": {
-		names: ['module.ts', 'module.js']
-	},
-	"nest-service": {
-		names: ['service.ts', 'service.js']
+		extensions: ["controller.ts", "controller.js"],
 	},
 	"nest-decorator": {
-		names: ['decorator.ts', 'decorator.js']
-	},
-	"nest-pipe": {
-		names: ['pipe.ts', 'pipe.js']
+		extensions: ["decorator.ts", "decorator.js"],
 	},
 	"nest-filter": {
-		names: ['filter.ts', 'filter.js']
+		extensions: ["filter.ts", "filter.js"],
 	},
 	"nest-gateway": {
-		names: ['gateway.ts', 'gateway.js']
+		extensions: ["gateway.ts", "gateway.js"],
 	},
 	"nest-guard": {
-		names: ['guard.ts', 'guard.js']
-	},
-	"nest-resolver": {
-		names: ['resolver.ts', 'resolver.js']
+		extensions: ["guard.ts", "guard.js"],
 	},
 	"nest-interceptor": {
-		names: ['interceptor.ts', 'interceptor.js']
+		extensions: ["interceptor.ts", "interceptor.js"],
+	},
+	"nest-middleware": {
+		extensions: ["middleware.ts", "middleware.js"],
+	},
+	"nest-module": {
+		extensions: ["module.ts", "module.js"],
+	},
+	"nest-pipe": {
+		extensions: ["pipe.ts", "pipe.js"],
+	},
+	"nest-resolver": {
+		extensions: ["resolver.ts", "resolver.js"],
+	},
+	"nest-service": {
+		extensions: ["service.ts", "service.js"],
+	},
+	"nest": {
+		names: [
+			"nest-cli.json",
+			".nest-cli.json",
+			"nestconfig.json",
+			".nestconfig.json",
+		],
 	},
 	"next": {
 		names: ["next.config.js", "next.config.mjs", "next.config.ts", "next.config.mts"],

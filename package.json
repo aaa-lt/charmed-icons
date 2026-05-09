@@ -3,17 +3,17 @@
 	"name": "charmed-nest-icons",
 	"displayName": "Charmed Nest Icons",
 	"type": "module",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"packageManager": "pnpm@10.11.0",
 	"description": "💝 Charming icon set with NestJS icons",
-	"author": "littensy",
+	"author": "aaa-lt",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/littensy/charmed-icons"
+		"url": "https://github.com/aaa-lt/charmed-icons"
 	},
 	"bugs": {
-		"url": "https://github.com/littensy/charmed-icons/issues"
+		"url": "https://github.com/aaa-lt/charmed-icons/issues"
 	},
 	"keywords": [
 		"charmed",

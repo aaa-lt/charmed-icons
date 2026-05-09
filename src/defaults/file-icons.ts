@@ -9,21 +9,69 @@ interface FileIcons {
 /// keep-sorted
 export const fileIcons: FileIcons = {
 	"assembly": {
-		extensions: ["asm", "a51", "inc", "nasm", "s", "ms", "agc", "ags", "aea", "argus", "mitigus", "binsource"],
+		extensions: [
+			"asm",
+			"a51",
+			"inc",
+			"nasm",
+			"s",
+			"ms",
+			"agc",
+			"ags",
+			"aea",
+			"argus",
+			"mitigus",
+			"binsource",
+		],
 	},
 	"astro-config": {
-		names: ["astro.config.js", "astro.config.mjs", "astro.config.cjs", "astro.config.ts", "astro.config.cts", "astro.config.mts"],
+		names: [
+			"astro.config.js",
+			"astro.config.mjs",
+			"astro.config.cjs",
+			"astro.config.ts",
+			"astro.config.cts",
+			"astro.config.mts",
+		],
 	},
 	"astro": {
 		languages: ["astro"],
 		extensions: ["astro"],
 	},
 	"audio": {
-		extensions: ["aac", "aiff", "alac", "flac", "m4a", "m4p", "mogg", "mp3", "oga", "opus", "wav", "wma", "wv", "mid", "midi", "ogg"],
+		extensions: [
+			"aac",
+			"aiff",
+			"alac",
+			"flac",
+			"m4a",
+			"m4p",
+			"mogg",
+			"mp3",
+			"oga",
+			"opus",
+			"wav",
+			"wma",
+			"wv",
+			"mid",
+			"midi",
+			"ogg",
+		],
 	},
 	"binary": {
 		languages: ["code-text-binary"],
-		extensions: ["bin", "exe", "msi", "dll", "lib", "so", "dylib", "o", "obj", "a"],
+		extensions: [
+			"bin",
+			"exe",
+			"msi",
+			"dll",
+			"lib",
+			"so",
+			"dylib",
+			"o",
+			"obj",
+			"a",
+		],
 	},
 	"bun-lock": {
 		names: ["bun.lock", "bun.lockb"],
@@ -49,6 +97,9 @@ export const fileIcons: FileIcons = {
 			"changes.rst",
 			"changes.txt",
 		],
+	},
+	"claude": {
+		names: ["CLAUDE.md", "CLAUDE.local.md"],
 	},
 	"code-of-conduct": {
 		names: [
@@ -179,6 +230,9 @@ export const fileIcons: FileIcons = {
 			".prettierignore",
 		],
 	},
+	"copilot": {
+		names: ["copilot-instructions.md"],
+	},
 	"cpp-header": {
 		extensions: ["hh", "hpp", "hxx", "h++", "hp", "tcc", "inl"],
 	},
@@ -198,13 +252,39 @@ export const fileIcons: FileIcons = {
 		languages: ["csv", "tsv", "psv"],
 		extensions: ["csv", "tsv", "psv", "xls", "xlsx", "xlsm"],
 	},
+	"cursor": {
+		names: [
+			".cursorignore",
+			".cursorindexingignore",
+			".cursorrules",
+			".cursor",
+			".cursor.json",
+			".cursorrc",
+		],
+	},
 	"dart": {
 		languages: ["dart"],
 		extensions: ["dart", "freezed.dart", "g.dart"],
 	},
 	"database": {
 		languages: ["sql"],
-		extensions: ["pdb", "sql", "pks", "pkb", "accdb", "mdb", "sqlite", "sqlite3", "pgsql", "postgres", "plpgsql", "psql", "db", "db3", "dat"],
+		extensions: [
+			"pdb",
+			"sql",
+			"pks",
+			"pkb",
+			"accdb",
+			"mdb",
+			"sqlite",
+			"sqlite3",
+			"pgsql",
+			"postgres",
+			"plpgsql",
+			"psql",
+			"db",
+			"db3",
+			"dat",
+		],
 	},
 	"docker": {
 		languages: ["dockerfile", "dockercompose"],
@@ -347,13 +427,32 @@ export const fileIcons: FileIcons = {
 		extensions: ["zap", "blink"],
 	},
 	"font": {
-		extensions: ["woff", "woff2", "ttf", "eot", "suit", "otf", "bmap", "fnt", "odttf", "ttc", "font", "fonts", "sui", "ntf", "mrf"],
+		extensions: [
+			"woff",
+			"woff2",
+			"ttf",
+			"eot",
+			"suit",
+			"otf",
+			"bmap",
+			"fnt",
+			"odttf",
+			"ttc",
+			"font",
+			"fonts",
+			"sui",
+			"ntf",
+			"mrf",
+		],
 	},
 	"fortran-fixed": {
 		extensions: ["f", "for", "f77"],
 	},
 	"fortran": {
 		extensions: ["f90", "f95", "f03", "f08"],
+	},
+	"gemini-ai": {
+		names: [".aiexclude", "GEMINI.md"],
 	},
 	"git": {
 		languages: ["git", "git-commit", "git-rebase", "ignore"],
@@ -390,10 +489,27 @@ export const fileIcons: FileIcons = {
 	},
 	"go": {
 		languages: ["go"],
-		extensions: ["go", "tmpl", "templ", "gotmpl", "gohtml", "go.tmp", "go.html"],
+		extensions: [
+			"go",
+			"tmpl",
+			"templ",
+			"gotmpl",
+			"gohtml",
+			"go.tmp",
+			"go.html",
+		],
 	},
 	"godot-assets": {
-		extensions: ["godot", "tres", "tscn", "gdns", "gdnlib", "gdshader", "gdshaderinc", "gdextension"],
+		extensions: [
+			"godot",
+			"tres",
+			"tscn",
+			"gdns",
+			"gdnlib",
+			"gdshader",
+			"gdshaderinc",
+			"gdextension",
+		],
 		names: [".gdignore", "._sc_", "_sc_"],
 	},
 	"godot": {
@@ -478,8 +594,25 @@ export const fileIcons: FileIcons = {
 	},
 	"json": {
 		languages: ["json", "jsonl", "jsonc", "hjson", "snippets"],
-		extensions: ["json", "jsonc", "tsbuildinfo", "json5", "jsonl", "ndjson", "hjson", "webmanifest"],
-		names: [".jscsrc", ".jshintrc", ".jsbeautifyrc", ".esformatter", "cdp.pid", ".lintstagedrc", ".whitesource"],
+		extensions: [
+			"json",
+			"jsonc",
+			"tsbuildinfo",
+			"json5",
+			"jsonl",
+			"ndjson",
+			"hjson",
+			"webmanifest",
+		],
+		names: [
+			".jscsrc",
+			".jshintrc",
+			".jsbeautifyrc",
+			".esformatter",
+			"cdp.pid",
+			".lintstagedrc",
+			".whitesource",
+		],
 	},
 	"julia": {
 		languages: ["julia", "juliamarkdown"],
@@ -631,7 +764,12 @@ export const fileIcons: FileIcons = {
 		],
 	},
 	"next": {
-		names: ["next.config.js", "next.config.mjs", "next.config.ts", "next.config.mts"],
+		names: [
+			"next.config.js",
+			"next.config.mjs",
+			"next.config.ts",
+			"next.config.mts",
+		],
 	},
 	"nim": {
 		languages: ["nim", "nimble"],
@@ -722,7 +860,21 @@ export const fileIcons: FileIcons = {
 	},
 	"perl": {
 		languages: ["perl", "perl6", "raku"],
-		extensions: ["pl", "pm", "pod", "t", "psgi", "raku", "rakumod", "rakutest", "rakudoc", "nqp", "p6", "pl6", "pm6"],
+		extensions: [
+			"pl",
+			"pm",
+			"pod",
+			"t",
+			"psgi",
+			"raku",
+			"rakumod",
+			"rakutest",
+			"rakudoc",
+			"nqp",
+			"p6",
+			"pl6",
+			"pm6",
+		],
 	},
 	"php": {
 		languages: ["php"],
@@ -735,7 +887,13 @@ export const fileIcons: FileIcons = {
 	"python": {
 		languages: ["python"],
 		extensions: ["py", "pyc", "pyo", "pyd"],
-		names: ["pyproject.toml", "requirements.txt", "requirements-dev.txt", "requirements-test.txt", ".python-version"],
+		names: [
+			"pyproject.toml",
+			"requirements.txt",
+			"requirements-dev.txt",
+			"requirements-test.txt",
+			".python-version",
+		],
 	},
 	"react-typescript": {
 		languages: ["typescriptreact"],
@@ -753,7 +911,12 @@ export const fileIcons: FileIcons = {
 		names: ["asphalt.toml", "tarmac.toml", "mantle.yml", "mantle.yaml"],
 	},
 	"roblox-lock": {
-		extensions: ["rbxl.lock", "rbxlx.lock", "mantle-state.yml", "mantle-state.yaml"],
+		extensions: [
+			"rbxl.lock",
+			"rbxlx.lock",
+			"mantle-state.yml",
+			"mantle-state.yaml",
+		],
 		names: ["asphalt.lock.toml", "tarmac-manifest.toml"],
 	},
 	"roblox-model": {
@@ -768,7 +931,12 @@ export const fileIcons: FileIcons = {
 		names: [".ruby-version"],
 	},
 	"rust-config": {
-		names: ["rustfmt.toml", ".rustfmt.toml", "rust-toolchain.toml", "clippy.toml"],
+		names: [
+			"rustfmt.toml",
+			".rustfmt.toml",
+			"rust-toolchain.toml",
+			"clippy.toml",
+		],
 	},
 	"rust": {
 		languages: ["rust"],
@@ -837,7 +1005,12 @@ export const fileIcons: FileIcons = {
 	"svelte": {
 		languages: ["svelte"],
 		extensions: ["svelte"],
-		names: ["svelte.config.js", "svelte.config.ts", "svelte.config.cjs", "svelte.config.mjs"],
+		names: [
+			"svelte.config.js",
+			"svelte.config.ts",
+			"svelte.config.cjs",
+			"svelte.config.mjs",
+		],
 	},
 	"svg": {
 		languages: ["svg"],
@@ -1012,7 +1185,19 @@ export const fileIcons: FileIcons = {
 	},
 	"visual-studio": {
 		languages: ["testOutput", "vb"],
-		extensions: ["csproj", "ruleset", "sln", "slnx", "suo", "vb", "vbs", "vcxitems", "vcxitems.filters", "vcxproj", "vcxproj.filters"],
+		extensions: [
+			"csproj",
+			"ruleset",
+			"sln",
+			"slnx",
+			"suo",
+			"vb",
+			"vbs",
+			"vcxitems",
+			"vcxitems.filters",
+			"vcxproj",
+			"vcxproj.filters",
+		],
 	},
 	"vite": {
 		names: [
@@ -1036,7 +1221,15 @@ export const fileIcons: FileIcons = {
 	},
 	"vscode": {
 		names: [".vscodeignore"],
-		extensions: ["vsixmanifest", "vsix", "code-workplace", "code-workspace", "code-profile", "code-snippets", ".vscode/json"],
+		extensions: [
+			"vsixmanifest",
+			"vsix",
+			"code-workplace",
+			"code-workspace",
+			"code-profile",
+			"code-snippets",
+			".vscode/json",
+		],
 	},
 	"vue": {
 		languages: ["vue"],
@@ -1063,10 +1256,7 @@ export const fileIcons: FileIcons = {
 	},
 	"workflow": {
 		languages: ["github-actions-workflow"],
-		extensions: [
-			"workflows/yml",
-			"workflows/yaml",
-		],
+		extensions: ["workflows/yml", "workflows/yaml"],
 	},
 	"xml": {
 		languages: ["xml"],

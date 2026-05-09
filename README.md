@@ -2,13 +2,14 @@
   <p align="center">
 	<img src="assets/icon.png" alt="Logo" width="128" />
   </p>
-  <h1 align="center"><b>Charmed Icons</b></h1>
+  <h1 align="center"><b>Charmed NestJS Icons</b></h1>
+  <p align="center"><b>Original icons by littensy, Fork by aaa-lt</b></p>
 </p>
 
 <div align="center">
 
-[![GitHub License](https://img.shields.io/github/license/littensy/charmed-icons?style=for-the-badge)](LICENSE.md)
-![GitHub Stars](https://img.shields.io/github/stars/littensy/charmed-icons?style=for-the-badge&logo=github)
+[![GitHub License](https://img.shields.io/github/license/aaa-lt/charmed-icons?style=for-the-badge)](LICENSE.md)
+![GitHub Stars](https://img.shields.io/github/stars/aaa-lt/charmed-icons?style=for-the-badge&logo=github)
 
 </div>
 
@@ -92,19 +93,6 @@ Charmed Icons also supports custom icon associations (thanks to [Catppuccin Icon
 > [!NOTE]
 > See the [preview images](#-previews) for a list of available icons.
 
-## 🙌 Requests
-
-If you have any icon requests, please [open an issue](https://github.com/littensy/charmed-icons/issues/new).
-
-Ping me on Discord `@littensy` for a quicker response!!
-
-## ❤️ Gratitude
-
-Charmed Icons draws heavy inspiration from:
-
-- [Catppuccin Icons](https://github.com/catppuccin/vscode-icons): Soothing pastel icons for VSCode.
-- [Monospace Theme](https://github.com/keksiqc/monospace-theme): The Monospace Theme from Google's IDX.
-
 ---
 
 <p align="center">
@@ -113,6 +101,6 @@ Charmed Icons is released under the <a href="LICENSE.md">MIT License</a>.
 
 <div align="center">
 
-[![MIT License](https://img.shields.io/github/license/littensy/charmed-icons?style=for-the-badge)](LICENSE.md)
+[![MIT License](https://img.shields.io/github/license/aaa-lt/charmed-icons?style=for-the-badge)](LICENSE.md)
 
 </div>

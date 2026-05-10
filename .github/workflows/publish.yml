@@ -34,13 +34,14 @@ jobs:
       - name: Generate icon variants
         run: pnpm generate
 
-      - name: Publish to Visual Studio Marketplace
-        uses: HaaLeo/publish-vscode-extension@v2
-        id: package
-        with:
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
-          registryUrl: https://marketplace.visualstudio.com
-          dependencies: false
+      # Blame microsoft for regional limitation =)
+      # - name: Publish to Visual Studio Marketplace
+      #   uses: HaaLeo/publish-vscode-extension@v2
+      #   id: package
+      #   with:
+      #     pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+      #     registryUrl: https://marketplace.visualstudio.com
+      #     dependencies: false
 
       - uses: abutler/upload-release-assets@v3.0
         with:

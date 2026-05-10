@@ -54,3 +54,16 @@ jobs:
         with:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
           extensionFile: ${{ steps.package.outputs.vsixPath }}
+
+  zed:
+    name: Zed Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: huacnlee/zed-extension-action@v1
+        with:
+          extension-name: charmed-icons
+          push-to: aaa-lt/extensions
+          tag-name: ${{ github.event.release.tag_name }}
+        env:
+          # Personal access token with "repo" & "workflow" scopes
+          COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
